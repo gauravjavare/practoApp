@@ -12,9 +12,9 @@ public class PractoappApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PractoappApplication.class, args);
 	}
-	//System.out.println();
 	@Bean
 	public PasswordEncoder passwordEncoder() {
+
 		return new BCryptPasswordEncoder();
 	}
 }
