@@ -11,6 +11,7 @@ public class PractoappApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PractoappApplication.class, args);
+		System.out.println("hello");
 	}
 	@Bean
 	public PasswordEncoder passwordEncoder() {
